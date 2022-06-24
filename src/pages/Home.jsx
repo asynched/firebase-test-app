@@ -1,5 +1,4 @@
-import { loginWithGoogle } from '@/firebase/auth'
-import { setUser } from '@/stores/auth'
+import { loginWithGoogle } from '@/firebase/impl/auth'
 
 export default function Home() {
   const handleLogin = async () => {
